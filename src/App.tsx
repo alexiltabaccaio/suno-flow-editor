@@ -36,11 +36,11 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-zinc-100 flex justify-center font-sans">
-      <div className="w-full max-w-[440px] bg-[#0f0f0f] min-h-screen flex flex-col [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+    <div className="h-screen bg-[#0a0a0a] text-zinc-100 flex justify-center font-sans overflow-hidden">
+      <div className="w-full max-w-[440px] bg-[#0f0f0f] h-screen flex flex-col">
         <TopBar />
 
-        <div className="p-4 space-y-4 overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+        <div className="flex-1 p-4 space-y-4 overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
           <ActionButtons />
 
           <LyricsEditor 
@@ -60,6 +60,20 @@ export default function App() {
           <StylesEditor styles={styles} />
 
           <SongMetadata title={title} />
+        </div>
+
+        <div className="py-3 text-center bg-[#0f0f0f] z-10 shrink-0">
+          <span className="text-xs text-zinc-500">
+            Prototype developed by{' '}
+            <a 
+              href="https://www.linkedin.com/in/alex-giustizieri-391746106/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white hover:text-zinc-200 hover:underline transition-colors"
+            >
+              Alex Giustizieri
+            </a>
+          </span>
         </div>
       </div>
     </div>
