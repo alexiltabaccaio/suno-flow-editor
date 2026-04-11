@@ -1,8 +1,8 @@
-# 🎵 Suno Flow: A UX Proposal for Intelligent Songwriting
+# 🎵 Suno Smart Lyrics Editor: A UX Proposal for Intelligent Songwriting
 
-<img src="https://github.com/user-attachments/assets/6ed50d0f-c6c4-4d0e-bce8-a86bfe9160f2" alt="Suno Flow Interface Preview" width="400">
+<img src="https://github.com/user-attachments/assets/6ed50d0f-c6c4-4d0e-bce8-a86bfe9160f2" alt="Suno Smart Lyrics Editor Interface Preview" width="400">
 
-👉 **[Try the Live Demo Here](https://suno-flow-editor.vercel.app)**
+👉 **[Try the Live Demo Here](https://suno-smart-lyrics-editor.vercel.app/)**
 
 **Hey everyone, I got tired of wasting credits because of missing brackets or misspelled tags in the lyrics box, so I built a functional prototype for a "Smart Editor" for Suno Web.**
 
@@ -48,4 +48,4 @@ The goal of this prototype is to show that the editor shouldn't just be a place 
 
 ---
 
-*Prototype developed by [Alex Giustizieri](https://www.linkedin.com/in/alex-giustizieri-391746106/)*
+*Prototype developed by [Alex Giustizieri](https://www.linkedin.com/in/alexgiustizieri/)*

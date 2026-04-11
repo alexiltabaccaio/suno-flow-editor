@@ -66,7 +66,7 @@ export default function App() {
           <span className="text-xs text-zinc-500">
             Prototype developed by{' '}
             <a 
-              href="https://www.linkedin.com/in/alex-giustizieri-391746106/" 
+              href="https://www.linkedin.com/in/alexgiustizieri/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-white hover:text-zinc-200 hover:underline transition-colors"

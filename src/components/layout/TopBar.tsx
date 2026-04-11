@@ -6,7 +6,7 @@ export const TopBar: React.FC = () => {
     <div className="flex items-center justify-between p-4 border-b border-zinc-800/60">
       <button className="flex items-center gap-2 bg-zinc-900/80 border border-zinc-800/80 rounded-full px-3 py-1.5 text-sm font-medium cursor-default">
         <Music className="w-3.5 h-3.5" />
-        8.7k
+        ∞
       </button>
 
       <div className="flex bg-zinc-900/80 border border-zinc-800/80 rounded-full p-0.5">
