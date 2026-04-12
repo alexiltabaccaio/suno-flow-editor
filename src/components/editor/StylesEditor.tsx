@@ -8,9 +8,9 @@ interface StylesEditorProps {
 
 export const StylesEditor: React.FC<StylesEditorProps> = ({ styles }) => {
   return (
-    <div className="bg-[#18181b] rounded-xl p-4 flex flex-col gap-3">
-      <button className="flex items-center gap-2 font-medium text-[15px] cursor-default">
-        <ChevronDown className="w-4 h-4 text-zinc-100" />
+    <div className="bg-[#18181b] rounded-xl p-4 flex flex-col gap-3 opacity-50">
+      <button className="flex items-center gap-2 font-medium text-[15px] cursor-default text-zinc-500">
+        <ChevronDown className="w-4 h-4 text-zinc-600" />
         Styles
       </button>
       
@@ -22,20 +22,20 @@ export const StylesEditor: React.FC<StylesEditorProps> = ({ styles }) => {
           placeholder="hard rock, slowed, clear male vocal, 90-100 bpm, heavy guitar riffs"
           minHeight="120px"
         />
-        <div className="flex items-center gap-2 mt-auto pt-2 overflow-x-auto pb-1 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-          <button className="text-zinc-500 cursor-default shrink-0 mr-2">
+        <div className="flex items-center gap-2 mt-auto pt-2 overflow-x-auto pb-1 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] opacity-50">
+          <button className="text-zinc-600 cursor-default shrink-0 mr-2">
             <Library className="w-4 h-4" />
           </button>
-          <button className="p-2 bg-zinc-800/80 rounded-full cursor-default shrink-0 mr-1">
-            <RefreshCw className="w-4 h-4 text-zinc-300" />
+          <button className="p-2 bg-zinc-800/40 rounded-full cursor-default shrink-0 mr-1">
+            <RefreshCw className="w-4 h-4 text-zinc-600" />
           </button>
-          <span className="bg-zinc-800/80 px-3.5 py-1.5 rounded-full text-[13px] font-medium shrink-0 text-zinc-200 cursor-default">
+          <span className="bg-zinc-800/40 px-3.5 py-1.5 rounded-full text-[13px] font-medium shrink-0 text-zinc-500 cursor-default">
             hard rock
           </span>
-          <span className="bg-zinc-800/80 px-3.5 py-1.5 rounded-full text-[13px] font-medium shrink-0 text-zinc-200 cursor-default">
+          <span className="bg-zinc-800/40 px-3.5 py-1.5 rounded-full text-[13px] font-medium shrink-0 text-zinc-500 cursor-default">
             slowed
           </span>
-          <span className="bg-zinc-800/80 px-3.5 py-1.5 rounded-full text-[13px] font-medium shrink-0 text-zinc-200 cursor-default">
+          <span className="bg-zinc-800/40 px-3.5 py-1.5 rounded-full text-[13px] font-medium shrink-0 text-zinc-500 cursor-default">
             clear male vocal
           </span>
         </div>
