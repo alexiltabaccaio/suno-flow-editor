@@ -1,6 +1,7 @@
 # 🎵 Suno Smart Lyrics Editor: A UX Proposal for Intelligent Songwriting
 
 <img src="https://github.com/user-attachments/assets/6ed50d0f-c6c4-4d0e-bce8-a86bfe9160f2" alt="Suno Smart Lyrics Editor Interface Preview" width="400">
+![Demo Preview](./assets/preview.gif)
 
 👉 **[Try the Live Demo Here](https://suno-smart-lyrics-editor.vercel.app/)**
 
